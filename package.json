@@ -9,19 +9,45 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@kinde-oss/kinde-auth-nextjs": "^2.5.3",
+    "@neondatabase/serverless": "^0.10.4",
+    "@prisma/adapter-neon": "^6.4.1",
+    "@prisma/client": "^6.4.1",
+    "@radix-ui/react-dialog": "^1.1.6",
+    "@radix-ui/react-slot": "^1.1.2",
+    "@stackframe/stack": "^2.7.23",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tanstack/react-query": "^5.67.2",
+    "@trpc/client": "11.0.0-rc.824",
+    "@trpc/next": "11.0.0-rc.824",
+    "@trpc/react-query": "11.0.0-rc.824",
+    "@trpc/server": "11.0.0-rc.824",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.479.0",
+    "next": "15.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.1"
+    "react-loading-skeleton": "^3.5.0",
+    "simplebar-react": "^3.3.0",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss-animate": "^1.0.7",
+    "ws": "^8.18.1",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "@types/ws": "^8.18.0",
+    "autoprefixer": "^10.4.20",
     "eslint": "^9",
     "eslint-config-next": "15.2.1",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.9",
+    "typescript": "^5"
   }
 }
